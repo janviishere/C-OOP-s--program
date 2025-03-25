@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int p,q,r;
+cout<<"Enter two numbers: ";
+cin>>p>>q;
+r = p;
+p = q;
+q = r;
+cout<<"After swapping: p ="<<p<<",q="<<q<<endl;
+return 0;
+}
