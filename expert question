@@ -1,0 +1,41 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    char name;
+    int mobileNumber;
+    int age;
+    int bill,amount_to_pay;
+
+    cout<<"Enter the employ name: ";
+    cin>>name;
+    cout<<"Enter a mobileNumber: ";
+    cin>>mobileNumber;
+    cout<<"Enter the age: ";
+    cin>>age;
+    cout<<"Enter the bill: ";
+    cin>>bill;
+    
+    if(bill<100)
+    {
+    amount_to_pay =bill;
+    cout<<"amount_to_pay: "<<amount_to_pay;
+    }
+    else if(100<=200)
+    {
+    amount_to_pay =bill*10;
+    cout<<"amount_to_pay: "<<amount_to_pay;
+    }
+    if(bill>200)
+    {
+    amount_to_pay =bill*20;
+    cout<<"amount_to_pay: "<<amount_to_pay;
+    }
+    if(bill!=amount_to_pay)
+    {
+        amount_to_pay =bill*50;
+        cout<<"amount_to_pay: "<<amount_to_pay;
+    }
+    return 0;
+}
